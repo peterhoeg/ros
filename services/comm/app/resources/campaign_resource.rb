@@ -8,4 +8,6 @@ class CampaignResource < Comm::ApplicationResource
   attributes :owner_type, :owner_id
   has_many :events
   has_many :templates
+  has_many :email_campaigns
+  has_many :audience
 end

@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rails', '~> 6.0.0.rc1'
   spec.add_dependency 'twilio-ruby'
   spec.add_dependency 'aws-sdk-sns'
+  spec.add_dependency 'gibbon'
 
   spec.add_development_dependency 'pry-stack_explorer'
   spec.add_development_dependency 'faker'
